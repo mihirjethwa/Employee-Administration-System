@@ -1,0 +1,29 @@
+.sort-right{
+    border: 1px solid #F3F3F3; 
+    border-radius: 5px; 
+    margin-left: auto; 
+    overflow:hidden; 
+    display: flex; 
+    justify-content:flex-end;
+    align-items:center;
+    height: 40px;
+}
+
+.sort-right-sorted{
+    color: #1C2D41; 
+    font-size:14px;
+    line-height:17.77px;
+    margin-left: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    font-style: normal;
+    width: 50px;
+}
+
+.sort-right-select{
+    width: 140; 
+    font-weight:bold;
+    font-size:14px;
+    color: #1C2D41; 
+    padding:0; 
+}

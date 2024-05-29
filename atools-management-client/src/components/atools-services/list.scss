@@ -1,0 +1,122 @@
+@import '/src/Style.scss';
+.action-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    border: 0px;
+}
+.document-tag .ant-tag-red{
+ padding:9px;
+ border: 0px;
+ min-width: 160px;
+    border-radius: 70px;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+/* 08 */
+
+color: #D62828;
+}
+.document-tag .ant-tag-green{
+    background: rgba(2, 195, 154, 0.1);
+   border: 0px;
+    padding:9px;
+    border-radius: 70px;
+    min-width: 90px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    
+    /* 07 */
+    
+    color: #02C39A;
+   }
+   .bg-grey{
+       background: rgb(2, 48, 71);
+   }
+   .filter-panel .ant-select-selector{
+    background-color:transparent!important;
+    border: 1px solid #616e75e6!important;
+box-sizing: border-box;
+border-radius: 3px;
+color: #fff;
+   }
+   .filter-panel .ant-select-arrow{
+       color: #fff;
+   }
+   .filter-radio .ant-radio-button-wrapper{
+       font-size: 14px!important;
+   }
+   .filter-radio .ant-radio-button-checked{
+    border-radius: 3px 0px 0px 3px;
+    border:0px
+   }
+   .filter-radio .ant-radio-button-wrapper{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    min-width: 120px;
+    font-size: 14;
+    text-align: center;
+    color: #fff;
+    background-color:#3c6c8438!important;
+    border: 1px solid #023047e6!important;
+   }
+   .filter-radio .ant-radio-button-wrapper-checked{
+
+    border-color: #FB8500!important;
+    color: #FFFFFF;
+    text-align: center;
+    background-color:#FB8500!important;
+   }
+   .filter-radio .ant-radio-button-wrapper:not(:first-child)::before{
+    background-color:#3c6c8438!important;
+   }
+   .filter-radio .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before{
+    background-color:#FB8500!important;
+   }
+   .filter-panel{
+
+       align-items: center;
+       display: flex;
+   }
+  .obutton .anticon{
+    padding: 3.5px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #ffffff33;
+  }
+   .export-button{
+     @include colored-button(rgb(33, 158, 188),#fff);
+   
+    
+   }
+   .add-button{
+    @include colored-button(rgb(251, 133, 0),#fff);
+
+    
+   }
+   .download-button{
+    background: #F3F3F3;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    @extend .inter-subtitle2-medium;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+   }
+   .download-button:hover, .download-button:focus{
+       background:$dark-green ;
+   }

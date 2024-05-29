@@ -1,0 +1,81 @@
+@import '/src/Style.scss';
+.searchCard{
+    width:100%;
+border: 1px solid #F3F3F3;
+box-sizing: border-box;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+}
+.paginationCard{
+    width:100%;
+border: 1px solid #F3F3F3;
+box-sizing: border-box;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+.ant-card-body{
+    padding: 12px;
+}
+}
+.search-active{
+    box-shadow: 0px 0px 10px 4px rgba(23 ,62 ,85 , 0.39) !important;
+}
+.searchCard:hover{
+    box-shadow: 0px 12px 40px 5px rgba(0, 0, 0, 0.15)!important;
+}
+.employeeIcon{
+    width: 20px;
+    font-size:20px ;
+}
+.radio-icon{
+    top: 2px;
+    width: 14px;
+    line-height: 27px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3.5px solid #F3F3F3;
+    background-color: #023047;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+.master-active .radio-icon{
+    background-color: #FB8500;
+}
+.orange-tick{
+    color: #FB8500;
+    margin-right: 5px;
+    display: inline-flex;
+}
+.orange-exclamation{
+    color: #FB8500!important;
+}
+.no-records .ant-result-title{
+    @extend .inter-headline1-bold;
+}
+.fileUpload{
+    padding: 30px;
+    background: #ececec;
+}
+.fileUpload .ant-form-item-control{
+    flex-flow: column-reverse;
+    @extend .inter-body2-medium;
+}
+.fileUpload .ant-upload.ant-upload-select-picture-card{
+width: auto;
+height: auto;
+}
+.ant-avatar-string {
+    font-size: 14px;
+    font-weight: bold;
+}
+.view-doc{
+    background: #ececec;  
+    padding: 30px;
+    margin-bottom: 24px;
+}
+.view-doc .fileUpload{
+    padding: 0px;
+}
+.ant-result-title {
+    text-align: center !important;
+}

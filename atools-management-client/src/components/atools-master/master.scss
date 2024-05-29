@@ -1,0 +1,35 @@
+@import "/src/Style.scss";
+.white-bg {
+  background-color: #ffff;
+}
+.del {
+  color: #d62828;
+  background-color: #d6282814;
+}
+.search-bar {
+  .anticon-search {
+    color: #a4a4a4;
+  }
+}
+.master-tables {
+  .ant-table-thead > tr > th {
+    color: #686d72 !important;
+    background-color: rgba(2, 48, 71, 0.05) !important;
+  }
+
+  .ant-table-pagination {
+    margin: 16px;
+  }
+
+  .ant-table-container table > thead > tr:first-child th:last-child {
+    text-align: right;
+  }
+}
+.Table_Tooltip {
+  padding: 12px;
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+}

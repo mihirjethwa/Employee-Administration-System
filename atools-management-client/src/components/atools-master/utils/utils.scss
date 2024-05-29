@@ -1,0 +1,42 @@
+@import '/src/Style.scss';
+.accordian{
+
+    background-color: $dark-green;
+    border-radius: 5px;
+    @extend .inter-body2-medium;
+    color: #fff;
+    .ant-list-item{
+        border-bottom: 0.5px solid #ffffff4a!important;
+        margin:0 24px
+    }
+  
+.ant-list-item-meta-title{
+    color: #fff;
+    font-weight:normal;
+}
+.master-active{
+    .ant-list-item-meta-title{
+    color: #F3F3F3;
+    font-weight:bold;
+    }
+}
+.anticon{
+    float: right;
+    line-height: 20px;
+}
+}
+.delete-modal .ant-modal-body,.delete-modal .ant-modal-content{
+    background-color: $dark-green;
+    border-radius: 5px;
+    @extend .inter-body2-medium; 
+    color: #fff;
+    .ant-modal-close-x{
+        color: #fff
+    }
+}
+.delete-buttons{
+    @include colored-button(rgb(251, 133, 0),#fff); 
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+}

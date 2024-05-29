@@ -1,0 +1,48 @@
+.modal-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.modal-sub-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 126.9%;
+  color: #686d72;
+}
+
+.ant-modal-content {
+  border-radius: 10px;
+}
+.ant-modal-header {
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-export-card {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  height: 109px;
+  width: 338px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.modal-export-card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 126.9%;
+  color: #00171f;
+}
+
+.modal-export-card-subtext {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #686d72;
+}
